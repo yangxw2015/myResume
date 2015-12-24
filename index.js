@@ -22,6 +22,7 @@ function move(e) {
     var cur = this.index;
     var step = 1/2;
     var scalePos =(Math.abs(changePos)/winH)*step;
+    console.log(123);
     [].forEach.call(oLis,function(){
         if(arguments[1]!=cur){
             arguments[0].style.display="none";
@@ -48,6 +49,6 @@ function end(e) {
     oLis[this.preSIndex].style.webkitTransition="0.5s";
     oLis[this.preSIndex].addEventListener('webkitTransitionEnd',function(){
         this.style.webkitTransition="";
-        this.firstElementChild.id = "a"+(this.index+1);
+        this.firstElementChild.id = "a"+(this.index);
     })
 }
