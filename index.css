@@ -31,7 +31,7 @@ html,body{
     background: url(images/b.jpg) no-repeat;
 }
 .slide li:nth-child(2){
-    background: url(images/4.jpg) no-repeat;
+    background: url(images/4.gif) no-repeat;
 }
 .slide li:nth-child(3){
     background: url(images/c.png) no-repeat;
@@ -64,14 +64,18 @@ html,body{
 }
 .a0 p:nth-child(even){
     -webkit-transform: translate(500px,0);
+}
+#a0 p{
+    -webkit-transform: translate(0,0);
+    -webkit-transition: 1s;
 }*/
 .a1{
     width: 100%;
     position: absolute;
-    top:34%;
-    left: 15%;
-    line-height: 90px;
-    font-size: 45px;
+    top:27%;
+    left: 10%;
+    line-height: 80px;
+    font-size: 40px;
     color: white;
     text-align: left;
 }
