@@ -11,13 +11,10 @@
         <ul class="slide">
             <li class="zIndex">
                 <div class="a0">
+                    <p class="p1">个人简历</p>
                     <p>姓名：杨小伟</p>
-                    <p>
-                        性别：男
-                    </p>
-                    <p>
-                        出生年月：1993年3月
-                    </p>
+                    <p>性别：男</p>
+                    <p>出生年月：1993年3月</p>
                     <p>联系电话：18813068824</p>
                     <p>邮箱：2389469307@qq.com</p>
                 </div>
@@ -27,7 +24,7 @@
                     <p>工作性质：全职</p>
                     <p>期望职业：WEB前端开发、<br>移动互联网开发</p>
                     <p>工作地区：北京</p>
-                    <p>期望月薪：12000-15000元/月</p>
+                    <p>期望月薪：12-15K/月</p>
                     <p>目前状况：已提离职，正在<br>准备交接工作。</p>
                 </div>
             </li>
@@ -57,4 +54,14 @@
     </div>
 </body>
 </html>
+<script type="text/javascript">
+    window.setTimeout(function () {
+        var oList = document.querySelectorAll(".a0>p");
+        for (var i = 0; i < oList.length; i++) {
+            oList[i].style.transform="translate(0,0)";
+            oList[i].style.transition="1s";
+        }
+    }, 200);
+
+</script>
 <script src="index.js"></script>
